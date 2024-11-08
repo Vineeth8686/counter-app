@@ -1,9 +1,9 @@
 pipeline {
-
+    agent any
     stages{
         stage("Git Checkout"){
             steps{
-                git 'https://github.com/vikash-kumar01/demo-counter-app.git'
+                git 'https://github.com/Vineeth8686/counter-app.git'
             }
         }
     }
